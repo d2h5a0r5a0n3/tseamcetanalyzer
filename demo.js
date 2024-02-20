@@ -50,7 +50,7 @@ function Rank(){
             thead.appendChild(tr);
             for(let i=1;i<996;i++){
                 let tr=document.createElement("tr");
-                if(rank<=data[i][caste] &&(branch.length===0||branch.includes(data[i][7]))&&(place.length===0||place.includes(data[i][3]))&&(type.length===0||type.includes(data[i][5]))&&(affiliated.length === 0 || affiliated.includes(data[i][28]))&&(data[i][27]<=range)){
+                if(rank<=data[i][caste] &&(branch.length===0||branch.includes(data[i][7]))&&(place.length===0||place.includes(data[i][3]))&&(type.length===0||type.includes(data[i][5]))&&(affiliated.length === 0 || affiliated.includes(data[i][28]))){
                     for(let j=0;j<=28;j++){
                         let td=document.createElement("td");
                         td.textContent=data[i][colIndex[j]];
@@ -130,9 +130,4 @@ function demo4(id) {
             affiliated.splice(index, 1); 
         }
     }
-}
-
-function demo5(val){
-    document.getElementById("r11").value = val;
-    range=val;
 }
