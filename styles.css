@@ -74,6 +74,10 @@ background: linear-gradient(228deg, rgba(0,0,0,1) 39%, rgba(40,8,96,1) 68%, rgba
     display: grid;
     grid-template-columns: auto auto auto auto auto auto auto auto;
 }
+#castt{
+    display: grid;
+    grid-template-columns: auto auto auto auto auto auto auto ;
+}
 #aff{
     display: grid;
     grid-template-columns: auto auto auto auto auto auto auto ;
@@ -129,8 +133,11 @@ thead {
     .container{
         grid-template-columns: auto auto auto auto auto auto auto;
     }
+    #castt{
+        grid-template-columns: auto auto auto auto auto auto ;
+    }
     #aff{
-        grid-template-columns: auto auto auto auto auto ;
+        grid-template-columns: auto auto auto auto  ;
     }
     #desc{
         grid-template-columns: auto;
@@ -141,10 +148,13 @@ thead {
         grid-template-columns: auto auto auto auto auto ;
     }
     #aff{
-        grid-template-columns: auto auto auto auto ;
+        grid-template-columns: auto auto auto  ;
     }
     #desc{
         grid-template-columns: auto;
+    }
+    #castt{
+        grid-template-columns: auto auto auto auto ;
     }
 }
   @keyframes spin {
