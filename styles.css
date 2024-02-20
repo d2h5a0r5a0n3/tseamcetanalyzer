@@ -39,25 +39,22 @@ img{
 }
 .form-check-label{
     font-weight: 500;
-    font-size: clamp(6px,1vw,12px);
+    font-size: clamp(9px,1vw,12px);
     display: inline-block;
     padding: 10px 20px;
     margin: 5px;
     border-radius: 5px;
-    border: 1px solid #ccc;
-    background-color: #f0f0f0;
+    border: 1px solid whitw;
+    background-color:white;
 }
 .form-check-label:hover{
     transform: scale(1.1);
-    background: rgb(0,0,0);
-background: linear-gradient(228deg, rgba(0,0,0,1) 10%, rgba(96,8,8,1) 89%);
-color: aliceblue;
 }
 .form-check-input:checked+.form-check-label{
     background: rgb(5,0,36);
 background: linear-gradient(40deg, rgba(5,0,36,1) 46%, rgba(103,9,121,1) 76%, rgba(255,0,82,1) 100%);
     background-color: #007bff;
-    color: #fff;
+    color:white;
 }
 #btn{
     display: flex;
@@ -86,7 +83,8 @@ background: linear-gradient(228deg, rgba(0,0,0,1) 39%, rgba(40,8,96,1) 68%, rgba
     border-left: 6px solid red;
 }
 #tab{
-    height: 91vh;
+    min-height: 0vh;
+    max-height: 91vh;
     margin-left: 0px;
     overflow: scroll;
 }
