@@ -56,6 +56,9 @@ background: linear-gradient(40deg, rgba(5,0,36,1) 46%, rgba(103,9,121,1) 76%, rg
     background-color: #007bff;
     color:white;
 }
+b{
+    color:rgb(255, 0, 0)
+}
 #btn{
     display: flex;
     justify-content: center;
